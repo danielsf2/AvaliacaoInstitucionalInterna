@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="144.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tsi.too.aii.controller.TelaPesquisaRegistroController">
+   <children>
+      <TextField fx:id="texteAreaDescricao" layoutX="13.0" layoutY="47.0" onAction="#acaoBtnOk" prefHeight="31.0" prefWidth="353.0" promptText="Forneça a descrição de sua Pesquisa.">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Button layoutX="327.0" layoutY="99.0" mnemonicParsing="false" onAction="#acaoBtnOk" prefHeight="25.0" prefWidth="38.0" text="OK">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="13.0" layoutY="14.0" text="Nome da Pesquisa :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

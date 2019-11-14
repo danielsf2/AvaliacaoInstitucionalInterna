@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="196.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tsi.too.aii.controller.TabelaAvaliacaoSegmentoController">
+   <children>
+      <TableView fx:id="tabelaSegmento" layoutX="10.0" layoutY="20.0" prefHeight="110.0" prefWidth="659.0">
+        <columns>
+          <TableColumn fx:id="colDiscente" prefWidth="211.0" text="Discente" />
+          <TableColumn fx:id="colDocente" minWidth="0.0" prefWidth="201.0" text="Docente" />
+            <TableColumn fx:id="colTecAdministrativo" prefWidth="246.0" text="Técnico Administrativo da Educação" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+      <Button layoutX="10.0" layoutY="157.0" mnemonicParsing="false" onAction="#acaoBotaoExibirGrafico" prefHeight="25.0" prefWidth="68.0" text="Gráfico">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

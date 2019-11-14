@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="541.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tsi.too.aii.controller.TabelaGeralAvaliacaoCursosController">
+   <children>
+      <TableView fx:id="tabela" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="18.0" layoutY="13.0" prefHeight="506.0" prefWidth="577.0" scaleShape="false">
+        <columns>
+          <TableColumn fx:id="colAssuntosAvaliados" prefWidth="440.0" text="Assuntos Avaliados" />
+          <TableColumn fx:id="colAvaliacoes" prefWidth="128.0" text="Avaliações" />
+        </columns>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+   </children>
+</AnchorPane>

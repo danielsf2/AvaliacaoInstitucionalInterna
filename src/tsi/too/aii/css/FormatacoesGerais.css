@@ -1,0 +1,8 @@
+#idLabelNomeBaseDados{
+	-fx-font-weight: bold;
+	-fx-text-fill :darkred ;
+    -fx-font-size: 15px;
+	-fx-padding: 12,0,0,0,0.1;
+	-fx-effect: dropshadow(three-pass-box, gray, 10, 0, 0, 0);
+	-fx-alignment: center-left ;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="431.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tsi.too.aii.controller.TabelaAvaliacaoCursosController">
+   <children>
+      <TableView fx:id="tabela" layoutX="16.0" layoutY="21.0" prefHeight="347.0" prefWidth="634.0">
+        <columns>
+          <TableColumn fx:id="colCursos" prefWidth="449.0" text="Cursos" />
+          <TableColumn fx:id="colAvaliacoes" prefWidth="183.0" text="Total de Avaliações" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+      <Button layoutX="14.0" layoutY="388.0" mnemonicParsing="false" onAction="#acaoBotaoExibirGrafico" prefHeight="21.0" prefWidth="101.0" text="Exibir Gráfico">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

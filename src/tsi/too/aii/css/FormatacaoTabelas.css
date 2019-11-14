@@ -1,0 +1,33 @@
+#colAvaliacoes{
+    -fx-alignment:center;
+    /*-fx-font-weight:bold;*/
+   
+}
+
+#colAssuntosAvaliados{
+	/*-fx-font-weight:bold;*/ 
+}
+
+#colAvaliacoes{
+	  -fx-alignment:center;
+}
+
+#tabelaSegmento{
+	-fx-font-size:13px;
+    -fx-alignment:center;
+}
+
+#tabelaSegmento .table-column{
+	 -fx-font-size:13px;
+     -fx-alignment:center;
+}
+
+.table-view .column-header {
+     -fx-background-color: transparent;
+      -fx-font-size:13px;
+      -fx-alignment:center;
+} 
+
+.table-view .table-column{
+     -fx-font-size:13px; 
+}
